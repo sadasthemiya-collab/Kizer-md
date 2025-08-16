@@ -52,8 +52,8 @@ module.exports = {
     ? process.env.SUDO.split(",")
     : ["94729478513", "94758775628"],
   PORT: process.env.PORT || "3000",
-  USERNAME: process.env.USERNAME, 
-  TOKEN:process.env.TOKEN,
-  REPO_NAME:process.env.REPO_NAME,
+  USERNAME: process.env.USERNAME  || "sadasthemiya-collab" , 
+  TOKEN:process.env.TOKEN  || "" ,
+  REPO_NAME:process.env.REPO_NAME  || "" ,
   SESSION_DIR: process.env.SESSION_DIR || "sess",
   };
