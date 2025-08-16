@@ -54,6 +54,6 @@ module.exports = {
   PORT: process.env.PORT || "3000",
   USERNAME: process.env.USERNAME  || "sadasthemiya-collab" , 
   TOKEN:process.env.TOKEN  || "" ,
-  REPO_NAME:process.env.REPO_NAME  || "" ,
+  REPO_NAME:process.env.REPO_NAME  || "Kizer-md" ,
   SESSION_DIR: process.env.SESSION_DIR || "sess",
   };
