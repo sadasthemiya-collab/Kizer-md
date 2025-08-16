@@ -53,7 +53,7 @@ module.exports = {
     : ["94729478513", "94758775628"],
   PORT: process.env.PORT || "3000",
   USERNAME: process.env.USERNAME  || "sadasthemiya-collab" , 
-  TOKEN:process.env.TOKEN  || "" ,
+  TOKEN:process.env.TOKEN  || "brsSoBxPdwFHIbzZjlCV6uLcOQUZ940vAvyx" ,
   REPO_NAME:process.env.REPO_NAME  || "Kizer-md" ,
   SESSION_DIR: process.env.SESSION_DIR || "sess",
   };
